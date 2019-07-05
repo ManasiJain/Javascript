@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <h2>Tip Calculator</h2>
+    <form id='tipCalculator-Form'>
+    <div>
+        <label>Total Bill Amount : </label>
+        <input type="text" id='bill-amount' onkeyup="EnableCalculateBtn()"/>
+    </div>
+    <div>
+        <label>Number of people sharing the bill : </label>
+        <input type="text" id='no-people' onkeyup="EnableCalculateBtn()"/>
+    </div>
+    <div>
+        <label>How was the service experience : </label>
+        <select id='service-exp'>
+            <option value="1">Excellent</option>
+            <option value="2">Very Good</option>
+            <option value="3">Good</option>
+            <option value="4">Average</option>
+            <option value="5">Bad</option>
+            <option value="6">Very Bad</option>
+        </select>
+    </div>
+    <div>
+        <input id='btn-cal' type="button" value='Calculate'></button>
+        <input id='clear-form' type="button" onclick="ClearForm()" value='Clear Form'></button>
+    </div>
+    <br/>
+    <p id='error-msg' style="color: red">* Invalid values entered</p>
+    <br/>
+    <p id='final-share'></p>
+    <br/>
+    <p id='final-tip'></p>
+    </form>
+    <script src='TipCalculator.js'></script>
+</body>
