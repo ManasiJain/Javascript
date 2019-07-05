@@ -120,10 +120,9 @@ function getScore(cardArray){
         score += getCardNumericValue(card);
         if(card.value === 'Ace')
             hasAce = true;
-        
+    }
         if(hasAce && score + 10 <= 21)
             return score + 10;
-    }
     return score;
 }
 
