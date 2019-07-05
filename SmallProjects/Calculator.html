@@ -3,7 +3,6 @@
     <head>
         <title>Calculator</title>
         <link rel="stylesheet" href="page.css"/>
-        <script src="calc.js"></script>
     </head>
     <body>
         <h2>Calculator</h2>
@@ -32,7 +31,7 @@
             <tr>
                 <th><button type="button" onclick="add()">+/-</button></th>
                 <th><button type="button" onclick="zero()">0</button></th>
-                <th><button type="button">.</button></th>
+                <th><button type="button" onclick="dot()">.</button></th>
                 <th><button type="button" onclick="subtract()">-</button></th>
             </tr>
             <tr>
@@ -40,5 +39,6 @@
                 <th><button type="button" onclick="clearText()">Clear</button></th>
             </tr>
        </table>
+       <script src="calc.js"></script>
     </body>
 </html>

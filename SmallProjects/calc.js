@@ -39,6 +39,10 @@ function zero(){
     document.getElementById('expr').value += 0; 
 }
 
+function dot(){
+    document.getElementById('expr').value += '.';
+}
+
 function clearText(){
     document.getElementById('expr').value = ''; 
 }
