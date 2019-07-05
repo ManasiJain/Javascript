@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="page.css"/>
+        <script src="calc.js"></script>
+    </head>
+    <body>
+        <h2>Calculator</h2>
+       <table class="calcGrid">
+            <tr>
+               <input type="text" id='expr'/>
+            </tr>
+            <tr>
+               <th><button type="button" onclick="one()">1</button></th>
+               <th><button type="button" onclick="two()">2</button></th>
+               <th><button type="button" onclick="three()">3</button></th>
+               <th><button type="button" onclick="divide()">/</button></th>
+            </tr>
+            <tr>
+                <th><button type="button" onclick="four()">4</button></th>
+                <th><button type="button" onclick="five()">5</button></th>
+                <th><button type="button" onclick="six()">6</button></th>
+                <th><button type="button" onclick="multiply()">*</button></th>
+            </tr>
+            <tr>
+                <th><button type="button" onclick="seven()">7</button></th>
+                <th><button type="button" onclick="eight()">8</button></th>
+                <th><button type="button" onclick="nine()">9</button></th>
+                <th><button type="button" onclick="add()">+</button></th>
+            </tr>
+            <tr>
+                <th><button type="button" onclick="add()">+/-</button></th>
+                <th><button type="button" onclick="zero()">0</button></th>
+                <th><button type="button">.</button></th>
+                <th><button type="button" onclick="subtract()">-</button></th>
+            </tr>
+            <tr>
+                <th><button type="submit" onclick="equalsTo()">=</button></th>
+                <th><button type="button" onclick="clearText()">Clear</button></th>
+            </tr>
+       </table>
+    </body>
+</html>
