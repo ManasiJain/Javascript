@@ -1,0 +1,30 @@
+header{
+    background-color: rgb(206, 140, 140);
+    text-align: center;
+}
+h4{
+    background-color: rgb(224, 204, 204);
+}
+body{
+    background-color: bisque;
+}
+nav{
+    background-color: cadetblue;
+    float: left;
+    padding: 20px;
+    width: 15%;
+    height: 400px;
+}
+article{
+    float: left;
+    background-color: darkgrey;
+    padding: 20px;
+    width: 80%;
+    height: 400px;
+}
+footer{
+    text-align: center;
+    vertical-align: auto;
+    background-color:  rgb(206, 140, 140);
+    padding: 10px;
+}
