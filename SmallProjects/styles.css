@@ -13,18 +13,17 @@ nav{
     float: left;
     padding: 20px;
     width: 15%;
-    height: 400px;
+    height: 500px;
 }
 article{
     float: left;
     background-color: darkgrey;
     padding: 20px;
     width: 80%;
-    height: 400px;
+    height: 500px;
 }
 footer{
     text-align: center;
-    vertical-align: auto;
     background-color:  rgb(206, 140, 140);
     padding: 10px;
 }

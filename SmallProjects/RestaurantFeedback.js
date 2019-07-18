@@ -1,5 +1,10 @@
+let inputname = document.getElementById('input_name'),
+    formFeedBack = document.getElementById('form_feedback'),
+    formThankyou = document.getElementById('form_thankyou'),
+    thankyouText = document.getElementById('thankyou'),
+    btnSubmit = document.getElementById('btn_submit');
+
 function Response(clicked_object){
-    debugger;
     let firedButton =  clicked_object.getAttribute('value');
     let parentElementId = clicked_object.parentNode.id;
 
@@ -20,3 +25,8 @@ function Response(clicked_object){
             break;
     }
 }
+
+btnSubmit.addEventListener('click', function(){
+    thankyouText.innerText += " " + inputname.value;
+    formThankyou.style.display = 'inline';
+});

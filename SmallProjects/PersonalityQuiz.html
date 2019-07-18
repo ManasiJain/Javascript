@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet", href="styles.css"/>
+</head>
+<body>
+<form id="input_form">
+    <h2>Welcome to Personality Quiz!</h2>
+    <div>
+        <label>Name:</label>
+        <input id="name" type="text"/>
+    </div>
+    <div>
+        <p>1. What is your favorite colour shade?</p>
+        <input type="radio" name="colour" value="50" checked>Dark colours
+        <input type="radio" name="colour" value="10">Light colours
+        <input type="radio" name="colour" value="30">Moderate colours
+    </div>
+    <div>
+        <p>2. What is your favorite music?</p>
+        <input type="radio" name="music" value="50" checked>Loud music
+        <input type="radio" name="music" value="10">Romantic music
+        <input type="radio" name="music" value="30">Depends on mood
+    </div>
+    <div>
+        <p>3. What is your favorite movie type?</p>
+        <input type="radio" name="movie" value="50" checked>Action movies
+        <input type="radio" name="movie" value="10">Romantic movies
+        <input type="radio" name="movie" value="30">Both
+    </div>
+    <div>
+        <p>4. What is your favorite passtime?</p>
+        <input type="radio" name="passtime" value="50" checked>Party with friends
+        <input type="radio" name="passtime" value="10">Spend time alone
+        <input type="radio" name="passtime" value="30">Visit friends
+    </div>
+    <div>
+        <p>5. You describe yourself as?</p>
+        <input type="radio" name="describe" value="50" checked>Career Oriented
+        <input type="radio" name="describe" value="10">Simple living
+        <input type="radio" name="describe" value="30">Family person
+    </div>
+    <br/>
+    <div>
+        <input id="btn_submit" type="button" value="Submit">
+    </div>
+</form>
+<form id="result_form">
+    <h2 id="result_name">Welcome</h2>
+    <h4 id="result_score">Your Score is :</h4>
+    <h5>Score : 50 - 100</h5>
+    <p>You are an introvert person. Enjoys spending lone time.</p>
+    <h5>Score : 100 - 200</h5>
+    <p>You are a moderate person. You adjust as per situations. Enjoys life as it comes.</p>
+    <h5>Score : 200 - 250</h5>
+    <p>You are an extrovert person. Enjoys going out and spending time with friends.</p>
+</form>
+    <script src="PersonalityQuiz.js"></script>
+</body>
